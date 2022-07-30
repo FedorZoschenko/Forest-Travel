@@ -1,0 +1,251 @@
+@media (max-width: 599px) {
+
+	.container {
+		width: 320px;
+	}
+
+    .header-top, .header-content {
+        width: 100%;
+    }
+
+    .logo {
+        font-size: 30px;
+    }
+
+    .header-title {
+        margin-bottom: 10px;
+        font-size: 32px;
+    }
+
+    .header-content p {
+        font-size: 18px;
+    }
+
+    /* Main */
+    .main {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .main .container {
+        width: 100%;
+    }
+
+    .main-row {
+        flex-direction: column-reverse;
+        margin-bottom: 40px;
+    }
+
+    .main-row:nth-child(even) {
+        flex-direction: column-reverse;
+    }
+
+    .main-img {
+        width: auto;
+        height: 150px;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .main-header, .header-2 {
+        font-size: 34px;
+    }
+
+    /* адаптация страницы "tours" */
+    .inner-page-tours-header {
+        margin-bottom: 30px;
+    }
+
+    .inner-page-tours-header h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .cards-first-row {
+        margin-bottom: 20px;
+    }
+
+    .card {
+        width: 290px;
+        margin-bottom: 20px;
+    }
+
+    .card.bigger {
+        width: 290px;
+    }
+
+    .card.small {
+        width: 290px;
+    }
+
+    .cards-first-row img {
+        height: 240px;
+        object-fit: cover;
+    } 
+
+    .cards-second-row-column img {
+        height: 210px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .card-title {
+        font-size: 20px;
+    }
+
+    .card-title-wrapper {
+        height: 50px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+     /* // адаптация страницы "tours" */
+
+     /* адаптация страницы "tracking" */
+     .inner-page.tracking {
+        padding-bottom: 40px;
+    }
+
+    .article-page-nav {
+        width: 290px;
+    }
+
+    .article-page-nav-title {
+        margin-top: 30px;
+        margin-bottom: 15px;
+        font-size: 22px;
+    }
+
+    .article-page-nav-list {
+        font-size: 16px;
+    }
+
+    .article-page-nav-list a {
+        padding-top: 7px;
+        padding-bottom: 8px;
+    }
+
+    .article-page-article h1 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .article-page-article {
+        width: 290px;
+    }
+    /* //адаптация страницы "tracking" */
+
+     /* адаптация страницы "contacts" */
+     .contact-info {
+        width: 290px;
+    }
+
+    .contact-block {
+        margin-bottom: 30px;
+        width: 290px;
+    }
+
+    .contact-block-title {
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+
+    .contact-block-body {
+        font-size: 16px;
+    }
+
+    .contact-block:last-child {
+        margin-bottom: 30px;
+    }
+
+    .contact-block-body iframe {
+        width: 290px;
+        height: 160px;
+    }
+
+    .form {
+        width: 290px;
+        padding: 20px 15px 30px;
+    }
+
+    .form-title {
+        font-size: 24px;
+    }
+
+    .form-group {
+        margin-bottom: 10px;
+    }
+
+    .form-group-title {
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+
+    .input {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-bottom: 10px;
+    }
+
+    .form-group-row {
+        display: block;
+        margin-bottom: 0px;
+    }
+
+    .form-group-row > .input + .input {
+        margin-left: 0px;
+    }
+
+    .form-group:last-of-type {
+        margin-bottom: 20px;
+    }
+
+    .button {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    /* // адаптация страницы "contacts" */
+
+    /* Footer */
+    .footer {
+        text-align: center;
+    }
+
+    .footer-row {
+        flex-direction: column;
+    }
+
+    .footer-widgets-wrapper {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0;
+    }
+
+    .footer-widget-services {
+        display: block;
+    }
+
+    .footer-widget {
+        margin-bottom: 40px;
+    }
+
+    .footer-widget + .footer-widget {
+        margin-left: 0px;
+    }
+
+    .footer-widgets-wrapper > * {
+        width: 100%;
+    }
+
+    .footer-widget-title {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .footer-widget-list {
+        font-size: 16px;
+    }
+
+    .footer-widget-list li {
+        margin-bottom: 10px;
+    }
+}

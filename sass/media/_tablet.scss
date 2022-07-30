@@ -1,0 +1,219 @@
+@media (max-width: 1199px) {
+
+    .container {
+		width: 900px;
+	}
+
+    .header {
+        height: 591px;
+    }
+
+    .header-inner {
+        height: 100px;
+    }
+
+    .header-top {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .header-content {
+        width: 900px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .header-nav-button {
+        display: block;
+        background: transparent;
+        border: none;
+    }
+
+    .header-nav-list {
+        display: none;
+    }
+
+    .header-title {
+        font-size: 52px;
+    }
+
+    .header-scroll {
+        font-size: 0;
+    }
+
+    /* Main */
+    .main {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .main-row {
+        margin-bottom: 80px;
+    }
+
+    .main-content {
+        width: 420px;
+    }
+
+    .main-img {
+        width: 420px;
+    }
+
+    .main-header, .header-2 {
+        font-size: 50px;
+    }
+
+    .main-content-text {
+        font-size: 18px;
+    }
+
+    .main-content-text p {
+            margin-bottom: 20px;
+        }
+
+    /* адаптация страницы "tours" */
+    .inner-page.tours {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .inner-page-tours-header {
+        margin-bottom: 40px;
+    }
+
+    .card {
+        width: 420px;
+    }
+
+    .card.bigger {
+        width: 495px;
+    }
+
+    .card.small {
+        width: 345px;
+    }
+
+    .card.small img {
+        height: 510px;
+    }
+
+    .card-title-wrapper {
+        height: 60px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .card-title {
+        font-size: 24px;
+    }
+     /* // адаптация страницы "tours" */
+
+     /* адаптация страницы "tracking" */
+    .inner-page.tracking {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+
+    .article-page-nav-list {
+        font-size: 18px;
+    }
+
+    .article-page-article {
+        width: 570px;
+        font-size: 18px;
+    }
+
+    .article-page-article h1 {
+        font-size: 50px;
+    }
+
+    .article-page-article h1 {
+        margin-bottom: 20px;
+    }
+
+    .article-page-article img {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    /* // адаптация страницы "tracking" */
+
+    /* адаптация страницы "contacts" */
+    .inner-page.contacts {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+
+    .contact-row {
+        flex-direction: column;
+    }
+
+    .contact-info {
+        width: 870px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .contact-block {
+        margin-bottom: 0px;
+        width: 420px;
+    }
+
+    .contact-block-title {
+        margin-bottom: 25px;
+        font-size: 24px;
+    }
+
+    .contact-block-title.map {
+        margin-bottom: 20px;
+    }
+
+    .contact-block-body {
+        font-size: 18px;
+    }
+
+    .contact-block:last-child {
+        margin-bottom: 40px;
+    }
+
+    .contact-block-body iframe {
+        width: 420px;
+        height: 310px;
+    }
+
+    .form {
+        width: 870px;
+    }
+
+    .input {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    /* // адаптация страницы "contacts" */
+
+    /* Footer */
+    .footer {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .footer-widget-services {
+        display: none;
+    }
+
+    .footer-logo {
+        margin-bottom: 20px;
+    }
+
+    .footer-logo .logo {
+        font-size: 30px;
+    }
+
+    .footer-copyright p {
+        font-size: 14px;
+    }
+
+    .footer-widget-title {
+        margin-bottom: 20px;
+    }
+}
